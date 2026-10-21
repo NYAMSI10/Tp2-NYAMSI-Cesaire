@@ -1,0 +1,16 @@
+{
+  "name": "archi-logicielle-exemples",
+  "version": "2.0.0",
+  "description": "Exemples exécutables du cours Architecture Logicielle (M1 Tronc Commun, INGETIS)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test seance2-architecture/tp2-NYAMSI-cesaire/Order.test.js seance2-architecture/tp2-NYAMSI-cesaire/PlaceOrder.test.js",
+    "tp2:server": "node seance2-architecture/tp2-NYAMSI-cesaire/main.js",
+    "hexa:server": "node seance2-architecture/hexagonal/main.js",
+    "lint:archi": "node tools/check-architecture.js"
+  }
+}
